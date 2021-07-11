@@ -196,6 +196,7 @@ export default {
           + "&width_y=" + this.width_y)
 
           alert(this.name + " in " + this.mapArray[this.currentFloor].id)
+          window.location.reload()
         }
     }
 }
